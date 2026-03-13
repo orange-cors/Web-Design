@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="https://www.w3schools.com/html/pic_trulli.jpg" height="200" width="300"
+    usemap="#imagemap" alt="This is mountain">
+    <map name="imagemap">
+    <area shape="rect" coords="0,0,200,200"
+    href="vd1.htm">
+    <area shape="circle" coords="250,100,50"
+    href="ex1.htm">
+    </map>
+
+    <a href="https://www.w3schools.com/" rel="nofollow" title="text" tabindex="n" accesskey="character"
+    target="_blank|_parent|_seft|_top">W3schools</a>
+
+    <a href="mailto:mango.cors@gmail.com">Email me</a><br>
+
+    <label for="fname">First name :</label><br>
+    <input type="text" id="fname" name="fname">
+    <br>
+    <input type="submit" value="Submit"><br>
+    <label for="cars">Choose a car:</label>
+    <select name="cars" id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+    </select>
+
+    <textarea name="messages" id="messages" rows="4" cols="50">Blyat man on the beach, running to the sea...</textarea>
+    <button type="button" onclick="alert('Really?')">Gay will click!</button>
+
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+    </fieldset>
+
+    <input list="browsers">
+    <datalist id="browsers">
+        <option value="Chrome">
+        <option value="Firefox">
+        <option value="Safari">
+        <option value="Edge">
+    </datalist><br>
+
+    <label for="Username">Username:</label><br>
+    <input type="text" id="Username" name="Username"><br>
+    <label for="Password">Password:</label><br>
+    <input type="password" id="Password" name="Password"><br><br>
+    <input type="submit" value="Submit">
+    <input type="reset"><br>
+    <input type="radio" name="gender" id="male" value="male">
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="female" value="female">
+    <label for="female">Female</label>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"> I have a bike</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2"> I have a car</label><br>
+    <input type="color" id="color" name="color">
+    <input type="date" id="birthday" name="birthday">
+</body>
+</html>
