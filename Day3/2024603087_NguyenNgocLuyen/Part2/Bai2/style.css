@@ -1,0 +1,20 @@
+* {
+    background-color: #A06D21;
+    background-image: url("/Day3/Src/4_1.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 600px;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(201, 188, 12);
+}
+
+p {
+    color: white;
+    font-family: tahoma;
+    font-size: 24px;
+}

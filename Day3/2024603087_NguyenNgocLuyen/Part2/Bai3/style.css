@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+}
+
+.label {
+    text-decoration: underline;
+}
+
+.chem {
+    color: brown;
+}
+
+.Normal {
+    color: blue;
+    background-color: aquamarine;
+}
+
+#Code1 {
+    text-indent: 100px;
+}
+
+#Code2 {
+    text-indent: 150px;
+}
+
+#Code3 {
+    text-indent: 100px;
+}

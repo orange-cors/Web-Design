@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    margin: 10px;
+}
+
+body{
+    background-color: rgb(176, 235, 39);
+}
+
+header img{
+    height: 90px;
+    width: 90px;
+}
+
+#p1 {
+    text-indent: 400px;
+    font-size: 30px;
+}
+
+#p2 {
+    text-indent: 500px;
+    font-size: 30px;
+}
+
+nav {
+    background-color: rgb(47, 240, 47);
+    text-align: center;
+    padding: 13px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 40px;
+    position: relative;
+}
+
+.main-container {
+    display: flex;
+    min-height: 500px;
+}
+
+.sidebar {
+    padding-top: 50px;
+    padding-left: 70px;
+    width: 25%;
+}
+
+.content{
+    width: 75%;
+    padding-top: 20px;
+    display: flex;
+}
+
+.cover img{
+    height: 350px;
+    width: 300px;
+    
+}
+
+.text p{
+    line-height: 3;
+}
+
+footer p{
+    background-color: rgb(90, 89, 89);
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.submenu{
+    display:  none;
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    background-color: rgb(47, 240, 47);
+    min-width: 250px;
+    text-align: left;
+}
+
+
+
+.dropdown:hover .submenu{
+    display: block;
+}
+
+.submenu li {
+    padding: 15px 20px;
+}
+
+
+

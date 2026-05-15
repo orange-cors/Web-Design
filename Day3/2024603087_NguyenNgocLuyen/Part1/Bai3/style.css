@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #FF3399;
+    background-color: #FECFFD;
+}
+
+p1 {
+    color: rgb(13, 57, 250);
+}
+
+p2 {
+    color: rgb(235, 118, 8);
+}
+
+p3 {
+    color: green;
+}
+
+.BG {
+    background-color: #FFFFCC;
+    text-align: center;
+    font-style: italic;
+}

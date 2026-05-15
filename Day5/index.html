@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+.box{
+display: flex;
+flex-direction: row;
+}
+.component{
+padding: 90px;
+margin: 7px;
+}
+#red{
+background-color: red;
+}
+#blue{
+background-color: blue;
+}
+#green{
+background-color: green;
+}
+</style>
+</head>
+<body id="a">
+<h2>Mouse over the squares and the background color will change!</h2>
+<div class="box">
+<div class="component" id="red" onmouseover="mouseOver(this.id)"
+onmouseout="mouseOut()"></div>
+<div class="component" id="blue" onmouseover="mouseOver(this.id)"
+onmouseout="mouseOut()"></div>
+<div class="component" id="green" onmouseover="mouseOver(this.id)"
+onmouseout="mouseOut()"></div>
+</div>
+<script>
+var x = document.getElementById("a")
+function mouseOver(id) {
+x.style.background = id
+}
+function mouseOut() {
+x.style.background = "white"
+}
+</script>
+</body>
+</html>
